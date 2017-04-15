@@ -1,0 +1,39 @@
+{
+  "name": "@core-framework/core",
+  "version": "0.0.1",
+  "description": "Core component of Core Framework",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "engines": {
+    "node": ">=7.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/core-framework-js/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/core-framework-js/core/issues"
+  },
+  "homepage": "https://github.com/core-framework-js/core",
+  "keywords": [
+    "core",
+    "framework",
+    "core-framework",
+    "modules",
+    "module"
+  ],
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/mocha test/**/*Test.js",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- test/**/*Test.js"
+  },
+
+  "devDependencies": {
+    "chai": "^4.0.0-canary.1",
+    "eslint": "^3.19.0",
+    "istanbul": "next",
+    "mocha": "^3.2.0"
+  }
+}
