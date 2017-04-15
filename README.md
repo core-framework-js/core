@@ -1,6 +1,15 @@
 Core Framework / Core module
 ============================
 
+[![build status][travis-image]][travis-url]
+[![Coveralls][coveralls-image]][coveralls-url]
+
+[travis-image]: https://img.shields.io/travis/core-framework-js/core.svg?style=flat-square
+[travis-url]: https://travis-ci.org/core-framework-js/core
+[coveralls-image]: https://img.shields.io/coveralls/core-framework-js/core.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/core-framework-js/core?branch=master
+
+
 About
 -----
 
